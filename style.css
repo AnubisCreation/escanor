@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.diagram {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.activity {
+    position: absolute;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
